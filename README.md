@@ -1,6 +1,7 @@
 # Neural_Network_Charity_Analysis
 ## Overview - Explain Purpose
-## Resources: 
+## Resources: charity_data.csv
+Google Colaboratory, Python, Pandas, Tensorflow
 ## Results
 ### Data Preprocessing
 - Target Variable:

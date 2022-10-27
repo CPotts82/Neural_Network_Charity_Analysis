@@ -1,6 +1,6 @@
 # Neural_Network_Charity_Analysis
 ## Overview - Explain Purpose
-##Resources
+## Resources: 
 ## Results
 ### Data Preprocessing
 - Target Variable:

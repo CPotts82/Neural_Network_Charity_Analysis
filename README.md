@@ -50,7 +50,13 @@ The accuracy for this model was even less than the first optimization attempt. T
 
 ![Accuracy2](https://user-images.githubusercontent.com/106348899/198891656-f509f733-d3c6-4264-bb26-c430aad576a0.png)
 
+- In the final attempt to increase the performance of this model, a 4th hidden layer was added and the number of nodes was increased from 34 to 44. The first and second layer activation functions were kept as relu, the third layer's activation function was changed to tanh and the fourth and final ouput layers used the sigmoid function. 
 
+![ModelOpt_3](https://user-images.githubusercontent.com/106348899/198892031-44398e67-4c95-4102-a53c-ef1048aaa647.png)
+
+The performance of this model was better than the last two attempts. The accuracy improved to 67.6% and the loss dropped to 68.6%. These results are still not ideal for Alphabet Soup but we are now moving in the right direction. 
+
+![Accuracy3](https://user-images.githubusercontent.com/106348899/198892071-571eedfc-7ec9-4269-8721-b677cf49cc3d.png)
 
 
 ## Summary

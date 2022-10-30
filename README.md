@@ -15,16 +15,17 @@ The initial data from the charity_data.csv was preprocessed before using in the 
 
 ![Preprocessing](https://user-images.githubusercontent.com/106348899/198889461-5b7c9fcc-296f-44ff-b890-ca6e75d364a6.png)
 
+The data was then encoded, merged into the dataframe (encoded columns merged, original columns dropped), and split into training and testing data. After the data was split it was then scaled by scikit-learns StandardScaler.
 
 ### Compiling, Training and Evaluating the Model
-(Initial Model from Deliverable 2)
+
 Number of:
 - Neurons:
 - Hidden Layers:
 - Activation Functions
 Explanation:
 - Achieve target performance?
-- Steps taken to increase model performance:
+### Optimization of the Model
 
 ## Summary
 ### Overall Results

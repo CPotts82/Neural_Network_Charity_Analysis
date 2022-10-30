@@ -43,8 +43,6 @@ In order to optimize the model, the first thing that I did was bin the ASK_AMT c
 ![Accuracy1](https://user-images.githubusercontent.com/106348899/198891305-d69120a5-f85e-47d2-b372-1674999db9dd.png)
 
 
-
-
 ## Summary
 ### Overall Results
 ### Recommendations

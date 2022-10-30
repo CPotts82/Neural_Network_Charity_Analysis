@@ -38,7 +38,7 @@ In order to optimize the model, the first thing that I did was bin the ASK_AMT c
 
 ![ModelOpt_1](https://user-images.githubusercontent.com/106348899/198891297-78be0cc2-88b6-47cc-af23-1193a4245a00.png)
 
-The accuracy of this first attempt was less than the original model. The loss was much higher than the original and unacceptable for this organization. 
+The accuracy of this first attempt was less than the original model. The loss was much higher than the original and unacceptable for this organization. This shows that binning the ASK_AMT column may not effect the model that much or maybe this needs to be rebinned in a different way.  
 
 ![Accuracy1](https://user-images.githubusercontent.com/106348899/198891305-d69120a5-f85e-47d2-b372-1674999db9dd.png)
 
@@ -58,6 +58,7 @@ The performance of this model was better than the last two attempts. The accurac
 
 ![Accuracy3](https://user-images.githubusercontent.com/106348899/198892071-571eedfc-7ec9-4269-8721-b677cf49cc3d.png)
 
+Note: all models used 100 epochs to train
 
 ## Summary
 ### Overall Results

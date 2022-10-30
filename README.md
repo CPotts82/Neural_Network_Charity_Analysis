@@ -38,9 +38,19 @@ In order to optimize the model, the first thing that I did was bin the ASK_AMT c
 
 ![ModelOpt_1](https://user-images.githubusercontent.com/106348899/198891297-78be0cc2-88b6-47cc-af23-1193a4245a00.png)
 
-
+The accuracy of this first attempt was less than the original model. The loss was much higher than the original and unacceptable for this organization. 
 
 ![Accuracy1](https://user-images.githubusercontent.com/106348899/198891305-d69120a5-f85e-47d2-b372-1674999db9dd.png)
+
+- In the second attempt to increase the accuracy of this model, an additional hidden layer was added and the number of nodes was adjusted to 34. Just two less than the previous attempt. The activation functions were kept the same with the new hidden layer using the relu function. 
+
+![ModelOpt_2](https://user-images.githubusercontent.com/106348899/198891645-61fd98b5-fd7c-4b2b-a67f-6fb6bea2ba30.png)
+
+The accuracy for this model was even less than the first optimization attempt. The accuracy was 64.2% and the loss was 1.7. Both of these values are unacceptable. 
+
+![Accuracy2](https://user-images.githubusercontent.com/106348899/198891656-f509f733-d3c6-4264-bb26-c430aad576a0.png)
+
+
 
 
 ## Summary

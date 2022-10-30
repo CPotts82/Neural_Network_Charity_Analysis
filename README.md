@@ -12,6 +12,10 @@ The initial data from the charity_data.csv was preprocessed before using in the 
 - Target Variable: IS_SUCCESSFUL
 - Feature Variables: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 - Removed Variables: EIN, NAME 
+
+![Preprocessing](https://user-images.githubusercontent.com/106348899/198889461-5b7c9fcc-296f-44ff-b890-ca6e75d364a6.png)
+
+
 ### Compiling, Training and Evaluating the Model
 (Initial Model from Deliverable 2)
 Number of:

@@ -34,7 +34,16 @@ Explanation:
 
 ### Optimization of the Model
 In order to optimize the model, the first thing that I did was bin the ASK_AMT column. It had 8747 unique values that needed to be binned so I could ensure it was not skewing the model. This feature was binned into two different categories, it was split up by binning amount counts less than 500. The APPLICATION_TYPE and CLASSIFICATION features were binned the same as the first model. After binning the ASK_AMT column I preprocessed and processed the data in the exact same way as the first model. The input features increased by 1, from initially 43 input features now to 44 due to the binning of the ASK_AMT feature.
-- In the first optimization attempt I kept the same number of hidden layers at 2 but increased the number of nodes from 
+- In the first optimization attempt, the number of hidden layers was kept at 2 and the nodes were also kept the same at 36. The activation functions were the same as well because I wanted to see if the fact that the ASK_AMT column now being binned would improve the initial model.  
+
+![ModelOpt_1](https://user-images.githubusercontent.com/106348899/198891297-78be0cc2-88b6-47cc-af23-1193a4245a00.png)
+
+
+
+![Accuracy1](https://user-images.githubusercontent.com/106348899/198891305-d69120a5-f85e-47d2-b372-1674999db9dd.png)
+
+
+
 
 ## Summary
 ### Overall Results

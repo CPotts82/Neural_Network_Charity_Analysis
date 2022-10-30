@@ -18,13 +18,20 @@ The initial data from the charity_data.csv was preprocessed before using in the 
 The data was then encoded, merged into the dataframe (encoded columns merged, original columns dropped), and split into training and testing data. After the data was split it was then scaled by scikit-learns StandardScaler.
 
 ### Compiling, Training and Evaluating the Model
-
+After the data was preprocessed and processed, the model was built using the keras module with the Sequential and Dense classes from the Tensorflow library. The model was compiled with "binary_crossentropy", the "adam" optimizer and using the "accuracy" metric. The trained model was set up to save after every 5 epochs. 
 Number of:
-- Neurons:
-- Hidden Layers:
-- Activation Functions
+- Neurons: 36 neurons were chosen because I wanted a large number of neurons but not too many therefore I kept this number between the number of input variables (43) and the output variable (1). 
+- Hidden Layers: 2 hidden layers were chosen because I wanted to keep this first model fairly simple. To see what kind of accuracy could be expected of a simple neural network. Then I could add more layers to the optimization models. 
+- Activation Functions: 'relu', relu', 'sigmoid' - for the first hidden layer, second hidden layer and outout layer respectively. I chose relu for the hidden layers because there was no negative imput and I have had the most success using this activation function over others in trial runs. The sigmoid function was used in the output layer because ultimately we were looking for probability of a donation to be effective. 
+
+![Initial_Model](https://user-images.githubusercontent.com/106348899/198890615-53fee6ca-fd84-48a0-a632-3d7206d04f2b.png)
+
+
 Explanation:
-- Achieve target performance?
+- This model did not meet the target expectation of 75% accurate. The accuracy of this model was 68.9% with a loss of 85.9%. For this particular situation of making sure donations are going to legitimate and effective organizations, I think the company would want higher accuracy and lower loss percentages. 
+
+![Metrics1](https://user-images.githubusercontent.com/106348899/198890625-aa4139c1-b61d-4479-9d9d-8f3ab4545229.png)
+
 ### Optimization of the Model
 
 ## Summary
